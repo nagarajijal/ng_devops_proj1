@@ -1,6 +1,6 @@
 FROM centos:latest
 MAINTAINER NagarajJalawadi.
-RUM yum install -y httpd \
+RUN yum install -y httpd \
    zip \
    unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page259/jack.zip /var/www/html
